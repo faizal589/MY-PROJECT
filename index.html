@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Faizal Store</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>Faizal Store</h1>
+    <nav>
+      <a href="#home">Home</a>
+      <a href="#products">Products</a>
+      <a href="#contact">Contact</a>
+      <div id="cart">🛒 <span id="cart-count">0</span></div>
+    </nav>
+  </header>
+
+  <section id="home" class="banner">
+    <h2>Welcome to Faizal Store</h2>
+    <p>Discover your next favorite item.</p>
+  </section>
+
+  <section id="products" class="product-section">
+    <h2>Our Products</h2>
+    <div class="product-grid">
+      <div class="product-card">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRtW0E3itYQnQDbmonHfcbJ5Kvfi_Ke7QOG_w&s" alt="Product 1">
+        <h3>Classic Watch</h3>
+        <p>₹999</p>
+        <button onclick="addToCart()">Add to Cart</button>
+      </div>
+      <div class="product-card">
+        <img src="https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcQ-QpOOBR2NgFGXZRPg-limAB9ToQMaywzexhkpPNSjIL5KiTFrc1kTfAeZRqSz26aoV6y-PLcOH1YAWIUFtK0aaxPzIZe5RFuOlcv3Z-2o03uDX22PLKwXe_R4" alt="Product 2">
+        <h3>Leather Wallet</h3>
+        <p>₹499</p>
+        <button onclick="addToCart()">Add to Cart</button>
+      </div>
+      <div class="product-card">
+        <img src="https://i.pinimg.com/236x/e7/58/a6/e758a6e1165b6edc3b8c7796833e2a0c.jpg" alt="Product 3">
+        <h3>Stylish Backpack</h3>
+        <p>₹1499</p>
+        <button onclick="addToCart()">Add to Cart</button>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>Contact Us</h2>
+    <p>Email: hello@simplestore.com</p>
+  </section>
+
+  <footer>
+    &copy; 2025 SimpleStore. All rights reserved.
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
